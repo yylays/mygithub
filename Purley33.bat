@@ -1,0 +1,11 @@
+set APTIOV_X_TOOS=D:\BuildTools\Aptio_5.x_TOOLS_33
+set COMPILERTOOLS=D:\BuildTools\WINDDK\7600.16385.1\bin\x86
+set EWDK_DIR=D:\BuildTools\EnterpriseWDK_1703
+
+set CCX86DIR=%COMPILERTOOLS%\x86
+set CCX64DIR=%COMPILERTOOLS%\amd64
+set TOOLS_DIR=%APTIOV_X_TOOS%\BuildTools
+
+set PATH=%APTIOV_X_TOOS%\BuildTools;%COMPILERTOOLS%;%EWDK_DIR%;%PATH%
+
+START %APTIOV_X_TOOS%\VisualeBios\VisualeBios.exe
