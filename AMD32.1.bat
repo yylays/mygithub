@@ -9,3 +9,4 @@ set TOOLS_DIR=%APTIOV_X_TOOS%\BuildTools
 set PATH=%APTIOV_X_TOOS%\BuildTools;%COMPILERTOOLS%;%PATH%
 
 START %APTIOV_X_TOOS%\VisualeBios\VisualeBios.exe
+;fix thi bug1
